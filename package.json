@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/NajamShehzad/P-DC-Project#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "express": "^4.17.3"
   }
 }
