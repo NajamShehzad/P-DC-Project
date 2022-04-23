@@ -22,6 +22,6 @@ app.get('/single_node',(req,res)=>{
     res.send({totalTime:totalTime});
 });
 
-app.listen(5001,()=>{
+app.listen(5000,()=>{
     console.log("server is running on port 5000");
 });
