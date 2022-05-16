@@ -4,7 +4,7 @@ const totalIteration = 20000;
 app.get('/distributed',(req,res)=>{
     const time = new Date().getTime();
     for (let i = 0; i < totalIteration; i++) {
-        console.log(i);
+        // console.log(i);
     }
     const time2 = new Date().getTime();
     const totalTime = time2 - time;
@@ -15,7 +15,7 @@ app.get('/single_node',(req,res)=>{
     const singleNodeIteration = totalIteration * 3
     const time = new Date().getTime();
     for (let i = 0; i < singleNodeIteration; i++) {
-        console.log(i);
+        // console.log(i);
     }
     const time2 = new Date().getTime();
     const totalTime = time2 - time;
